@@ -5,4 +5,4 @@ Group members:
 
 Tommy huynh Tommyh@csu.fullerton.edu
 
-Juheng Mo 
+Juheng Mo henrymo@csu.fullerton.edu
