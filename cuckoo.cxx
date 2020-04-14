@@ -149,6 +149,7 @@ size_t f(string s, size_t index) {
     if (len == 1)
       return val;
 
+    size_t i;
     for (i = 1; i < len; i++)
     {
       temp = s[i];
