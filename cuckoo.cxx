@@ -113,17 +113,17 @@ bool place_in_hash_tables (string s) {
       // WRITE THE CODE TO SET index TO INDICATE THE OTHER TABLE
 
       // WRITE THE CODE TO CALCULATE IN pos THE HASH VALUE FOR temp_s
+      
       temp = t[pos][index];
       t[pos][index] = temp_s;
       temp_s = temp;
       if(index == 0){
         index = 1;
-        pos = f(temp_s, index);
       }
       else if(index == 1){
         index = 0;
-        pos = f(temp_s, index);
       }
+      pos = f(temp_s, index);
 
       counter ++;
     }
