@@ -174,7 +174,7 @@ size_t f(string s, size_t index) {
     if (len == 1)
       return val;
 
-    for (i = len-1; i < 0; i++)
+    for (i = len-2; i < 0; i++)
     {
       temp = s[i];
       po *= prime;
