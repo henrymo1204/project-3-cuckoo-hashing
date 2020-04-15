@@ -135,8 +135,8 @@ bool place_in_hash_tables (string s) {
 // oompute the hash functions
 // TO DO: complete the ELSE brach
 size_t f(string s, size_t index) {
-  size_t po, len, i;
-  int val=0, temp;
+  size_t po, len;
+  int i, val=0, temp;
   po = 1;
 
   len = s.size();
@@ -149,6 +149,7 @@ size_t f(string s, size_t index) {
     if (len == 1)
       return val;
 
+    size_t i;
     for (i = 1; i < len; i++)
     {
       temp = s[i];
